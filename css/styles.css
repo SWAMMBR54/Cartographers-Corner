@@ -1,0 +1,116 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* CSS RESET */
+body, header, nav, main, footer, ul, li, li a {
+    margin: 0;
+    padding: 0;
+}
+
+/* SITEWIDE STYLES */
+body {
+    background-color: #fff6c4;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+
+}
+
+/* HEADER STYLES */ 
+header {
+    background-image: url(../images/worldmapbg.jpg);
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+    padding: 5px;
+    color: #fff7e8;
+    text-shadow: 2px 2px #ffe8bf;
+}
+
+/* NAV STYLES */
+nav {
+    background-image: linear-gradient(#fcba62,#db9a44, #db9a44, #fcba62);
+    font-size: 30px;
+    text-align: center;
+    color: #fff7e8;
+}
+
+ul {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+li {
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff7e8;
+}
+
+li a:hover {
+    font-weight: bold;
+}
+
+.activeLink {
+    font-weight: bold;
+}
+
+#cartPrice {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 111pc;
+    top: 5.5pc;
+}
+
+#cartInventory {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 117.4pc;
+    font-size: 0.75em;
+    top: 6.2pc;
+}
+
+#cartIcon {
+    max-width: 80px;
+    position: absolute;
+    left: 115pc;
+}
+
+/* MAIN STYLES */
+#mapStore {
+    text-align: center;
+}
+
+.map {
+    display: inline-block;
+    margin: 15px;
+    background-image: linear-gradient(#db9a44, #db9a44, #ffce8c);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.mapImage {
+    min-width: 300px;
+    border-radius: 10px;
+}
+
+.map:hover {
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    border-width: 3px;
+    margin: 13px;
+}
+
+#placeholderDragon {
+    text-align: center;
+    font-size: 2em;
+}
