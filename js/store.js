@@ -11,7 +11,7 @@ for (let i = 0; i < maps.length; i++) {
     storeItem += "<tr><td>" + maps[i][3] + "</td></tr>";
     storeItem += "</table>";
 
-    document.getElementById("popMaps").insertAdjacentHTML("beforeend", storeItem);
+    document.getElementById("popMapsContainer").insertAdjacentHTML("beforeend", storeItem);
 };
 
 

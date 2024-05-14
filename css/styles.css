@@ -61,6 +61,19 @@ li a:hover {
     font-weight: bold;
 }
 
+#cart {
+    text-align: center;
+}
+
+#submitCheckout {
+    background-color: #db9a44;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+}
+
 #cartPrice {
     display: inline-block;
     text-align: center;
@@ -90,11 +103,11 @@ li a:hover {
 }
 
 .map {
-    display: inline-block;
-    margin: 15px;
     background-image: linear-gradient(#db9a44, #db9a44, #ffce8c);
     border-radius: 10px;
+    border: 3px solid transparent;
     font-size: 25px;
+    margin-bottom: 25px;
 }
 
 .mapImage {
@@ -103,14 +116,38 @@ li a:hover {
 }
 
 .map:hover {
-    border-style: solid;
+    border-style: solid transparent;
     border-color: black;
     border-radius: 15px;
     border-width: 3px;
-    margin: 13px;
 }
 
 #placeholderDragon {
     text-align: center;
     font-size: 2em;
+}
+
+.mapContainer {
+    display: inline-block;
+    align-content: center;
+    column-count: 3;
+    column-gap: 25px;
+}
+
+#errorMSG {
+    color: red;
+}
+
+fieldset {
+    text-align: center;
+    display: block;
+}
+
+fieldset input {
+    display: block;
+    margin-left: 891px;
+}
+
+#submitPayment {
+    margin-left: 931px;
 }

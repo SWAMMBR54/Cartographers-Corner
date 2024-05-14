@@ -20,10 +20,56 @@
             <a href="checkout.html"><img src="images/cartIcon.png" alt="" id="cartIcon"></a>
         </nav>
         <main>
-            <section id="placeholderDragon">
-                <h1>Here there be Dragons</h1>
-                <h4>We're still charting this region! Come again soon!</h4>
-            </section>
+            <div id="cart">
+                <h1>Your Cart</h1>
+                <div id="cartContent">
+                </div>
+                <input id="submitCheckout" type="button" value="Checkout">
+            </div>
+            <div id="checkoutForm">
+                <form>
+                    <fieldset>
+                        <name for id="fName">First Name</name>
+                        <input id="fName" type="text">
+                        <name for id="lName">Last Name</name>
+                        <input id="lname" type="text">
+                        <name for id="address">Address</name>
+                        <input id="address" type="text">
+                        <name for id="city">City</name>
+                        <input id="city" type="text">
+                        <name for id="state">State/Province</name>
+                        <select id="state">
+                            <option>Alabama</option>
+                            <option>Alaska</option>
+                            <option>Idaho</option>
+                            <option>Iowa</option>
+                            <option>Kansas</option>
+                            <option>Michigan</option>
+                            <option>Mississippi</option>
+                            <option>New Mexico</option>
+                            <option>Tennessee</option>
+                        </select>
+                        <name for id="zip">Zipcode</name>
+                        <input id="zip" type="text">
+                    </fieldset>
+                    <fieldset>
+                        <name for id="card">Card Number</name>
+                        <input id="card" type="text">
+                        <name for id="expDate">Expiration</name>
+                        <input id="expDate" type="text">
+                    <input id="CVV" type="text">
+                    </fieldset>
+                    <fieldset id="shipping">
+                        <name for id="regShip">Regular Shipping</name>
+                        <input id="regShip" type="checkbox">
+                        <name for id="expShip">Expedited Shipping</name>
+                        <input id="expShip" type="checkbox">
+                    </fieldset>
+                    <p id="errorMSG">
+                    </p>
+                    <input type="button" id="submitPayment" value="Confirm Checkout">
+                </form>
+            </div>
         </main>
         <footer>
             
